@@ -1,0 +1,26 @@
+*{margin:0;padding:0;}
+
+h2{
+	margin:200px;
+}
+
+h2:before{
+	content:"Moktar";
+	background:lime;
+	color:tan;
+	margin-right:50px;
+}
+h2:after{
+	content:"Hossain";
+}
+
+.button{
+	display:block;
+	margin:200px;
+	text-decoration:none;
+}
+
+.content{
+	background:#ddd;
+	padding:10px 30px;
+}
